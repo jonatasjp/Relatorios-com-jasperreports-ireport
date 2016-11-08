@@ -33,5 +33,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/java/itext_1.5.4-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/java/servlet-api-3.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

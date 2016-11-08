@@ -29,7 +29,6 @@ public class RelatorioDeClientes {
 
 		// preenchimento do relatorio, note que o metodo recebe 3 parametros:
 		// 1 - o relatorio
-		//
 		// 2 - um Map, com parametros que sao passados ao relatorio
 		// no momento do preenchimento. No nosso caso eh null, pois nao
 		// estamos usando nenhum parametro

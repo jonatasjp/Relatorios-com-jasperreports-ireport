@@ -40,27 +40,52 @@
 			</band>
 		</pageHeader>
 		<columnHeader>
-			<band height="0"  isSplitAllowed="true" >
+			<band height="33"  isSplitAllowed="true" >
+				<rectangle>
+					<reportElement
+						x="0"
+						y="0"
+						width="516"
+						height="33"
+						backcolor="#6699FF"
+						key="rectangle-2"/>
+					<graphicElement stretchType="NoStretch"/>
+				</rectangle>
+				<staticText>
+					<reportElement
+						x="183"
+						y="9"
+						width="130"
+						height="20"
+						key="staticText-1"/>
+					<box></box>
+					<textElement textAlignment="Center">
+						<font pdfFontName="Helvetica-Bold" size="12" isBold="true"/>
+					</textElement>
+				<text><![CDATA[CARROS]]></text>
+				</staticText>
 			</band>
 		</columnHeader>
 		<detail>
-			<band height="47"  isSplitAllowed="true" >
+			<band height="30"  isSplitAllowed="true" >
 				<rectangle>
 					<reportElement
-						x="6"
-						y="5"
-						width="500"
-						height="37"
+						x="0"
+						y="0"
+						width="516"
+						height="30"
+						forecolor="#000000"
+						backcolor="#99CCFF"
 						key="rectangle-1"/>
 					<graphicElement stretchType="NoStretch"/>
 				</rectangle>
 				<textField isStretchWithOverflow="false" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						mode="Transparent"
-						x="11"
-						y="13"
+						x="168"
+						y="8"
 						width="161"
-						height="23"
+						height="21"
 						key="textField-3"/>
 					<box></box>
 					<textElement textAlignment="Center">
